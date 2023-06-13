@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="Css/home-page.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <a href="" class="logo">
+                <img src="Images/logo.png" alt="" width="50px">
+            </a>
+            <div id="menu">
+                <div class="item">
+                    <a href="">Trang chủ</a>
+                </div>
+                <div class="item">
+                    <a href="">Sản phẩm</a>
+                </div>
+                <div class="item">
+                    <a href="">Blog</a>
+                </div>
+                <div class="item">
+                    <a href="">Liên hệ</a>
+                </div>
+            </div>
+            <div id="actions">
+                <div class="item">
+                    <img src="Images/user.png" alt="" width="20px">
+                </div>
+                <div class="item">
+                    <img src="Images/shopping-cart.png" alt="" width="20px">
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="slideshow-container">
+                <!-- Ảnh -->
+                <div class="slide">
+                  <img src="Images/dell g16 7630.jpg" style="width:100%">
+                </div>
+              
+                <div class="slide">
+                  <img src="Images/dell inspiron 13 5330.jpg" style="width:100%">
+                </div>
+              
+                <div class="slide">
+                  <img src="Images/legion 5 pro.jpg" style="width:100%">
+                </div>
+              
+                <!-- Nút chuyển slide -->
+                <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+              </div>
+              
+              <!-- Chấm điều hướng -->
+              <div class="dot-container" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+              <script src="Js/slide.js"></script>
+        </div>
+        <div id="wp-products">
+            <h2>SẢN PHẨM CỦA CHÚNG TÔI</h2>
+            <ul id="list-products">
+                <div class="item">
+                    <img src="Images/Asus ROG Zephyrus G14 GA401QM.png" alt="" width="200px">
+                    <div class="stars">
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                    </div>
+                    <div class="name">Laptop 1</div>
+                    <div class="desc">Mô tả</div>
+                    <div class="price">20.000.000 VNĐ</div>
+                </div>
+                <div class="item">
+                    <img src="Images/Asus ROG Zephyrus G14 GA401QM.png" alt="" width="200px">
+                    <div class="stars">
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                    </div>
+                    <div class="name">Laptop 1</div>
+                    <div class="desc">Mô tả</div>
+                    <div class="price">20.000.000 VNĐ</div>
+                </div>
+                <div class="item">
+                    <img src="Images/Asus ROG Zephyrus G14 GA401QM.png" alt="" width="200px">
+                    <div class="stars">
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                    </div>
+                    <div class="name">Laptop 1</div>
+                    <div class="desc">Mô tả</div>
+                    <div class="price">20.000.000 VNĐ</div>
+                </div>
+                <div class="item">
+                    <img src="Images/Asus ROG Zephyrus G14 GA401QM.png" alt="" width="200px">
+                    <div class="stars">
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                    </div>
+                    <div class="name">Laptop 1</div>
+                    <div class="desc">Mô tả</div>
+                    <div class="price">20.000.000 VNĐ</div>
+                </div>
+                <div class="item">
+                    <img src="Images/Asus ROG Zephyrus G14 GA401QM.png" alt="" width="200px">
+                    <div class="stars">
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                    </div>
+                    <div class="name">Laptop 1</div>
+                    <div class="desc">Mô tả</div>
+                    <div class="price">20.000.000 VNĐ</div>
+                </div>
+                <div class="item">
+                    <img src="Images/Asus ROG Zephyrus G14 GA401QM.png" alt="" width="200px">
+                    <div class="stars">
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                        <span>
+                            <img src="Images/stars.png" alt="" width="30px">
+                        </span>
+                    </div>
+                    <div class="name">Laptop 1</div>
+                    <div class="desc">Mô tả</div>
+                    <div class="price">20.000.000 VNĐ</div>
+                </div>
+            </ul>
+            <div class="list-page">
+                <div class="item">
+                    <a href="">1</a>
+                </div>
+                <div class="item">
+                    <a href="">2</a>
+                </div>
+                <div class="item">
+                    <a href="">3</a>
+                </div>
+                <div class="item">
+                    <a href="">4</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="saleoff">
+            <div class="box-left">
+                <h1>
+                    <span>GIẢM GIÁ LÊN ĐẾN</span>
+                    <span>50%</span>
+                </h1>
+            </div>
+            <div class="box-right"></div>
+        </div>
+
+        <div id="comment">
+            <h2>NHẬN XÉT CỦA KHÁCH HÀNG</h2>
+            <div id="comment-body">
+                <div class="prev-comment">
+                    <a href="">
+                        <img src="Images/back.png" alt="" width="50px">
+                    </a>
+                </div>   
+                <ul id="list-comment">
+                    <li class="item">
+                        <div class="avatar">
+                            <img src="Images/user.png" alt="" width="50px">
+                        </div>
+                        <div class="stars">
+                            <span>
+                                <img src="Images/stars.png" alt="" width="20px">
+                            </span>
+                            <span>
+                                <img src="Images/stars.png" alt="" width="20px">
+                            </span>
+                            <span>
+                                <img src="Images/stars.png" alt="" width="20px">
+                            </span>
+                        </div>
+                        <div class="name">Nguyễn Văn B</div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias et minus itaque, voluptates quisquam, obcaecati fuga assumenda quaerat eligendi unde saepe. Vitae dignissimos temporibus et non architecto adipisci neque pariatur doloribus enim laborum consectetur soluta laboriosam doloremque natus, obcaecati eligendi labore error! Alias quis deleniti obcaecati quam quisquam deserunt? Dolores.</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="avatar">
+                            <img src="Images/user.png" alt="" width="50px">
+                        </div>
+                        <div class="stars">
+                            <span>
+                                <img src="Images/stars.png" alt="" width="20px">
+                            </span>
+                            <span>
+                                <img src="Images/stars.png" alt="" width="20px">
+                            </span>
+                            <span>
+                                <img src="Images/stars.png" alt="" width="20px">
+                            </span>
+                            <span>
+                                <img src="Images/stars.png" alt="" width="20px">
+                            </span>
+                        </div>
+                        <div class="name">Nguyễn Văn C</div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias et minus itaque, voluptates quisquam, obcaecati fuga assumenda quaerat eligendi unde saepe. Vitae dignissimos temporibus et non architecto adipisci neque pariatur doloribus enim laborum consectetur soluta laboriosam doloremque natus, obcaecati eligendi labore error! Alias quis deleniti obcaecati quam quisquam deserunt? Dolores.</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="avatar">
+                            <img src="Images/user.png" alt="" width="50px">
+                        </div>
+                        <div class="stars">
+                            <span>
+                                <img src="Images/stars.png" alt="" width="20px">
+                            </span>
+                            <span>
+                                <img src="Images/stars.png" alt="" width="20px">
+                            </span>
+                            <span>
+                                <img src="Images/stars.png" alt="" width="20px">
+                            </span>
+                            <span>
+                                <img src="Images/stars.png" alt="" width="20px">
+                            </span>
+                            <span>
+                                <img src="Images/stars.png" alt="" width="20px">
+                            </span>
+                        </div>
+                        <div class="name">Nguyễn Văn A</div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias et minus itaque, voluptates quisquam, obcaecati fuga assumenda quaerat eligendi unde saepe. Vitae dignissimos temporibus et non architecto adipisci neque pariatur doloribus enim laborum consectetur soluta laboriosam doloremque natus, obcaecati eligendi labore error! Alias quis deleniti obcaecati quam quisquam deserunt? Dolores.</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="next-comment">
+                    <a href="">
+                        <img src="Images/next.png" alt="" width="50px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script src="Js/comment.js"></script>
+
+        <div id="footer">
+            <div class="box">
+                <div class="logo">
+                    <img src="Images/logo-design.png" style="background-color: white;" width="50px" alt="">
+                </div>
+                <p>Cung cấp sản phẩm uy tín chất lượng bảo hành vip</p>
+            </div>
+            <div class="box">
+                <h3>NỘI DUNG</h3>
+                <ul class="quick-menu">
+                    <div class="item">
+                        <a href="">Trang chủ</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Sản phẩm</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Blog</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Liên hệ</a>
+                    </div>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>LIÊN HỆ</h3>
+                <form action="">
+                    <input type="text" placeholder="Địa chỉ Email">
+                    <button>Nhận tin</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+
+</html>
